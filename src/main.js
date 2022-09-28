@@ -14,6 +14,15 @@ import 'admin-lte/plugins/jquery/jquery.min.js'
 import 'admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js'
 import 'admin-lte/dist/js/adminlte.min.js?v=3.2.0'
 
+/* ------------ Global Components -------------- */
+import AppNavBar from './components/partials/AppNavBar'
+import AppSideBar from './components/partials/AppSideBar'
+import AppFooter from './components/partials/AppFooter'
+import ControlSideBar from './components/partials/ControlSideBar'
+Vue.component('AppNavBar', AppNavBar)
+Vue.component('AppSideBar', AppSideBar)
+Vue.component('AppFooter', AppFooter)
+Vue.component('ControlSideBar', ControlSideBar)
 
 new Vue({
   router,
