@@ -7,6 +7,7 @@ Vue.config.productionTip = false
 
 
 import 'admin-lte/plugins/fontawesome-free/css/all.min.css'
+import 'admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css'
 import 'admin-lte/dist/css/adminlte.min.css?v=3.2.0'
 import './style.scss'
 
